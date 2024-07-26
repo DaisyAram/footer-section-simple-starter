@@ -4,6 +4,15 @@ footer {
   font-size: 14px;
   color: #777;
 }
+.footer-sections {
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.footer-sections a {
+	margin 0 20px;
+}
+
 
 /* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
 body {
