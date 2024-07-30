@@ -6,7 +6,7 @@ footer {
 .footer-sections {
   display: flex;
   margin-bottom: 20px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer-section a {
@@ -18,13 +18,14 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-botton: 20px;
+  margin-bottom: 20px;
 }
 
 .social-icons  img {
   width: 20px;
   height: 20px;
   margin: 0 10px;
+  color: #f9f9f9;
 }
 
 @media (max-width: 600px) {
