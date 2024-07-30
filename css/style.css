@@ -7,11 +7,10 @@ footer {
   display: flex;
   margin-bottom: 20px;
   justify-content: space-between;
+  margin-right: 10px;
+
 }
 
-.footer-section a {
-  text-align: none;
- }
 
 .social-icons {
   display: flex;
