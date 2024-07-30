@@ -6,13 +6,11 @@ footer {
 .footer-sections {
   display: flex;
   margin-bottom: 20px;
-  justify-content: center;
-  margin-right: 10px;
+  justify-content: space-between;
 }
 
 .footer-section a {
   text-align: none;
-  margin-right: 10px;
  }
 
 .social-icons {
