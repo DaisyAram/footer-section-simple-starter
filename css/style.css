@@ -6,6 +6,7 @@ footer {
 .footer-sections {
 	display: flex;
 	margin-bottom: 10px;
+	flex-wrap:wrap;
 	justify-content: center;
 }
 
