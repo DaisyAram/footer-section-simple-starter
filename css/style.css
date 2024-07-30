@@ -6,10 +6,7 @@ footer {
 .footer-sections {
 	display: flex;
 	margin-bottom: 10px;
-	justify-content: space-around;
-}
-.footer-sections a {
-	margin: 0 20px;
+	justify-content: center;
 }
 
 .social-icons {
