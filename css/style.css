@@ -3,6 +3,7 @@ footer {
   text-align: center;
   font-size: 14px;
   color: #777;
+  flex: 1;
 }
 .footer-sections {
 	display: flex;
