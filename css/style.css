@@ -1,21 +1,47 @@
 footer {
   padding: 20px;
   text-align: center;
-  font-size: 14px;
-  color: #777;
-  flex: 1;
+  background-color: #000
 }
+ 
 .footer-sections {
-	display: flex;
-	margin-bottom: 10px;
-	justify-content: center;
-}
-.footer-sections a {
-	margin 0 20px;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
 }
 
+.footer-section a {
+  text-align: none;
+  margin-right: 10px;
+ }
 
-/* Be sure to delete the <style> tag in index.html if you want to use this stylesheet. */
+.social-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-botton: 20px;
+}
+
+.social-icons  img {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-sections {
+    flex-direction: column;
+  }
+  .social-icons img {
+    width: 24px; 
+    height: 24px;
+    margin: 10px;
+  }
+  .footer-sections a {
+    margin-bottom: 10px;
+  }
+}
+
 body {
   margin: 0;
   font-family: "Noto Sans", system-ui, -apple-system, BlinkMacSystemFont,
