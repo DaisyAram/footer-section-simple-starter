@@ -28,7 +28,7 @@ footer {
 
 @media (max-width: 600px) {
   .footer-sections {
-    flex-direction: column;
+    margin: 10px;
   }
   .social-icons img {
     width: 24px; 
